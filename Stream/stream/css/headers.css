@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+header{
+    position: relative;
+    width:100%;
+}
+header h1{
+    color:rgb(238, 104, 126);
+    position: relative;
+   text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+ header nav ul{
+    /*alinhar os itens a lado a lado*/
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+    left: 35%;
+    list-style: none;
+    font-size: 20px;
+    
+ }
+ header a {
+    text-decoration: none;
+ }
+/* estilização apenas para o cabeçalho*/

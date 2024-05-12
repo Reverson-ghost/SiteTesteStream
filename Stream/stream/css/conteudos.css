@@ -1,0 +1,97 @@
+#divAnuncios {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+#divAnuncios h4 {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: fantasy;
+    letter-spacing: 1px;
+}
+
+#divAnuncios p {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+/*------*/
+#headerEpisodios {
+    position: relative;
+    align-items: center;
+    margin: 2%;
+    border: solid 1px;
+    width: 95%;
+}
+
+#headerEpisodios ul {
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: 50%;
+    margin: 10px;
+    align-items: center;
+    gap: 5%;
+}
+
+#headerEpisodios li {
+    list-style: none;
+    padding: 1%;
+    text-transform: capitalize;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+#headerEpisodios a {
+    color: aliceblue;
+}
+
+/*Cards de apresentação de animes*/
+.card-animes {
+    width: 100%;
+    text-transform: capitalize;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.conteudos {
+    display: flex;
+    text-align: center;
+    position: relative;
+    margin: 1%;
+    padding: 1%;
+    border: solid 1px;
+    border-radius: 15px;
+}
+
+.conteudos img {
+   width:90%;
+   border-radius: 5%;
+}
+
+#titulo-anime {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2%;
+}
+
+#tipo-anime {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    font-size: 20px;
+}
+
+#quantidade-de-episodios {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 25px;
+}
+#h4-quantidade-de-episodios{
+font-size: 17px;
+}
+/*Rodape*/
+
+footer  img {
+ width: 8%;
+}

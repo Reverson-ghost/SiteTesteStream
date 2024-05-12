@@ -1,0 +1,22 @@
+.Buscar {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 2%;
+    padding: 1%;
+}
+#inpBuscar{
+    width: 50%;
+    height:5vh;
+    border-radius: 5px;
+    border: 1px solid black;
+} 
+#btnBuscar{
+    width: 4%;
+    height:5vh;
+    margin: 1%;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    
+} 
